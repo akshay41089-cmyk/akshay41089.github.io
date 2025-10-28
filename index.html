@@ -1,1 +1,221 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Erapalli | AI Strategy & Program Lead</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fb;
+        }
+        .section-header {
+            border-left: 4px solid #3b82f6; /* Blue border for a professional look */
+        }
+        .badge {
+            display: inline-block;
+            padding: 0.3rem 0.75rem;
+            margin: 0.25rem;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            background-color: #e0f2f1; /* Teal light background */
+            color: #0d9488; /* Teal dark text */
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md sticky top-0 z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">
+                Akshay Erapalli
+            </h1>
+            <nav class="hidden md:flex space-x-8 text-lg font-medium">
+                <a href="#summary" class="text-gray-700 hover:text-blue-600 transition duration-300">Summary</a>
+                <a href="#experience" class="text-gray-700 hover:text-blue-600 transition duration-300">Experience</a>
+                <a href="#skills" class="text-gray-700 hover:text-blue-600 transition duration-300">Expertise</a>
+                <a href="#publications" class="text-gray-700 hover:text-blue-600 transition duration-300">Research</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none">
+                    <!-- Hamburger Icon (Menu Icon) -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white px-4 pt-2 pb-4 space-y-1 sm:px-3">
+            <a href="#summary" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-blue-600">Summary</a>
+            <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-blue-600">Experience</a>
+            <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-blue-600">Expertise</a>
+            <a href="#publications" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-blue-600">Research</a>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- Contact/Title Section -->
+        <section id="contact" class="bg-white p-6 rounded-xl shadow-lg mb-8">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center">
+                <div>
+                    <h2 class="text-xl font-semibold text-blue-600">AI Strategy, Data Ops, and Product Program Lead</h2>
+                </div>
+                <div class="mt-4 md:mt-0 space-y-1 text-right text-gray-600">
+                    <p>📧 <a href="mailto:akshay41089@gmail.com" class="hover:text-blue-600">akshay41089@gmail.com</a></p>
+                    <p>📞 (415) 238-8774</p>
+                    <p>🔗 <a href="https://linkedin.com/in/akshayerapalli" target="_blank" class="hover:text-blue-600">linkedin.com/in/akshayerapalli</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Summary -->
+        <section id="summary" class="bg-white p-6 rounded-xl shadow-lg mb-8">
+            <h2 class="text-2xl font-bold mb-4 pb-2 section-header pl-3 text-gray-900">Professional Summary</h2>
+            <p class="text-lg leading-relaxed text-gray-700">
+                Program Management and AI Strategy & Ops lead with <strong class="font-semibold">13+ years of experience</strong>, successfully scaling complex AI and ML operations for leading global technology platforms. Focused on <strong class="font-semibold">delivering tangible business outcomes</strong> from advanced technology, managing <strong class="font-semibold">multi-million dollar operational budgets</strong> to power next-generation foundational models, and defining the technical roadmap and data strategy for mission-critical software. Expert at establishing <strong class="font-semibold">cross-functional alignment</strong> to move projects from cutting-edge research to compliant, full-scale product launches.
+            </p>
+        </section>
+
+        <!-- Areas of Expertise / Skills -->
+        <section id="skills" class="bg-white p-6 rounded-xl shadow-lg mb-8">
+            <h2 class="text-2xl font-bold mb-4 pb-2 section-header pl-3 text-gray-900">Areas of Expertise</h2>
+            <div class="flex flex-wrap">
+                <span class="badge">Program Management</span>
+                <span class="badge">LLMs & Human Data</span>
+                <span class="badge">AI Research</span>
+                <span class="badge">Model Development / Post Training</span>
+                <span class="badge">Product & Tooling Strategy</span>
+                <span class="badge">Trust & Safety</span>
+                <span class="badge">Data Strategy & Analytics</span>
+                <span class="badge">Vendor Operations</span>
+                <span class="badge">Content Moderation</span>
+                <span class="badge">Incident Response Management</span>
+            </div>
+        </section>
+
+        <!-- Research & Education (MOVED UP) -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <section id="publications" class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 pb-2 section-header pl-3 text-gray-900">Research & Publications</h2>
+                <div class="space-y-4 text-gray-700">
+                    <p class="font-semibold text-lg">Ego-4D Research Dataset Paper</p>
+                    <ul class="list-disc ml-6">
+                        <li><strong class="font-semibold">Co-authored</strong> paper with AI Research Scientists & Academic Scholars (<strong class="font-semibold">1400+ citations</strong>).</li>
+                        <li><strong class="font-semibold">Nominated for the most distinguished research papers</strong> at CVPR 2022.</li>
+                        <li><strong class="font-semibold">Led Program Management and Operations (FAIR)</strong> for the entire dataset creation effort.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education" class="bg-white p-6 rounded-xl shadow-lg">
+                <h2 class="text-2xl font-bold mb-4 pb-2 section-header pl-3 text-gray-900">Education</h2>
+                <div class="space-y-4 text-gray-700">
+                    <div>
+                        <p class="font-semibold text-lg">Masters of Science in Management Information Systems</p>
+                        <p>University of Illinois at Chicago | 08/2013 - 05/2015</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold text-lg">Bachelor of Science in Mechanical Engineering</p>
+                        <p>Bangalore University | 09/2007 - 07/2011</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- END Research & Education (MOVED UP) -->
+
+        <!-- Work Experience -->
+        <section id="experience" class="bg-white p-6 rounded-xl shadow-lg mb-8">
+            <h2 class="text-2xl font-bold mb-6 pb-2 section-header pl-3 text-gray-900">Professional Experience</h2>
+
+            <!-- Job 1: Meta (Current) -->
+            <div class="mb-8 border-b pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Senior Program Manager Lead | AI Operations</h3>
+                <p class="text-lg font-semibold text-gray-700">Meta | <span class="font-normal">New York, NY | 10/2024 - Present</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Led global product expansion for the Threads Trending portfolio, driving the successful <strong class="font-semibold">agentic AI automation</strong> of trending topics across <strong class="font-semibold">5 new international markets</strong>.</li>
+                    <li>Managed and optimized <strong class="font-semibold">$20M+ Opex budget</strong> for large-scale human data labeling, ensuring accurate, timely annotation critical for LLM model development and deployment.</li>
+                    <li>Established <strong class="font-semibold">cross-functional alignment</strong> across Engineering, Product, Policy, Legal, and Research to support core model training and coordinate critical alignment and assessment results.</li>
+                    <li>Developed and utilized <strong class="font-semibold">key performance indicators (KPIs)</strong> for data operations, delivering actionable strategic insights that directly informed leadership decision-making.</li>
+                </ul>
+            </div>
+
+            <!-- Job 2: Meta (Previous) -->
+            <div class="mb-8 border-b pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Program Manager Lead | AI Research Operations</h3>
+                <p class="text-lg font-semibold text-gray-700">Meta (FAIR) | <span class="font-normal">San Francisco, CA | 05/2019 - 04/2022</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Co-authored and led Program Management (FAIR) for the <strong class="font-semibold">Ego-4D research dataset paper</strong> (<strong class="font-semibold">1400+ citations</strong>), collaborating with AI Research Scientists & Academic Scholars.</li>
+                    <li>Developed and deployed Meta's <strong class="font-semibold">first-of-its-kind data collection and labeling tool</strong>, accelerating the Llama LLM family's training pipeline.</li>
+                    <li>Scaled a <strong class="font-semibold">global vendor workforce (8 partners)</strong> for GenAI data deliverables, overseeing the full lifecycle from hiring and training to secure high-impact results.</li>
+                    <li>Executed critical priorities supporting major product launches (<strong class="font-semibold">Quest and Meta AR Glasses</strong>), strategically integrating <strong class="font-semibold">Responsible AI</strong> into the data labeling pipeline.</li>
+                </ul>
+            </div>
+
+            <!-- Job 3: Zoox (Amazon) -->
+            <div class="mb-8 border-b pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Senior Technical Program Manager, AI</h3>
+                <p class="text-lg font-semibold text-gray-700">Zoox (Amazon) | <span class="font-normal">San Francisco, CA | 01/2023 - 05/2024</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Shipped critical planner, prediction, and perception models, helping launch the <strong class="font-semibold">autonomous vehicle in San Francisco and Las Vegas markets</strong>.</li>
+                    <li>Defined the <strong class="font-semibold">product roadmap, technical requirements, and data strategy</strong> for the core AI Software stack, ensuring alignment across all Engineering teams.</li>
+                    <li>Rolled out critical safety analysis metrics for autonomous vehicle performance, providing <strong class="font-semibold">data-driven insights to leadership</strong> to accelerate system roadmaps.</li>
+                </ul>
+            </div>
+
+            <!-- Job 4: Twitter Inc. -->
+            <div class="mb-8 border-b pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Manager, Product Operations | AI Operations</h3>
+                <p class="text-lg font-semibold text-gray-700">Twitter Inc. | <span class="font-normal">San Francisco, CA | 04/2022 - 01/2023</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Drove the strategy and execution for high-visibility products, including the Incident Management Platform and Safety Center, resulting in <strong class="font-semibold">successful launches across 20+ global markets</strong>.</li>
+                    <li>Accelerated product innovation by collaborating with Engineering to implement <strong class="font-semibold">Agile software development methodologies</strong> and establish a culture of fast iteration testing.</li>
+                    <li>Validated product performance using strategic frameworks to create definitive KPIs and OKRs; led complex validation techniques, including user research and journey mapping.</li>
+                </ul>
+            </div>
+            
+            <!-- Job 5: Deloitte Consulting / PwC -->
+            <div class="mb-8 border-b pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Senior Program Manager | Data Strategy Consulting</h3>
+                <p class="text-lg font-semibold text-gray-700">Deloitte Consulting / PwC | <span class="font-normal">San Francisco, CA | 07/2015 - 05/2019</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Led the end-to-end execution of the High-Risk Applications and Enterprise Analytics Platform <strong class="font-semibold">data migration and implementation program</strong>, managing complex vendor relationships.</li>
+                    <li>Championed and deployed the strategic plan for <strong class="font-semibold">data-driven decision-making</strong> and policy implementation, translating program recommendations into systemic, measurable business impact.</li>
+                    <li>Scaled the Enterprise Analytics Platform program maturity by developing and optimizing governance processes and cross-functional stakeholder relationships.</li>
+                </ul>
+            </div>
+            
+            <!-- Job 6: Mu Sigma -->
+            <div class="mb-8 pb-4">
+                <h3 class="text-xl font-bold text-blue-600">Data Strategy Consultant</h3>
+                <p class="text-lg font-semibold text-gray-700">Mu Sigma | <span class="font-normal">Bangalore, India | 07/2011 - 03/2013</span></p>
+                <ul class="list-disc ml-6 mt-2 space-y-2 text-gray-700">
+                    <li>Data Management & Predictive Analytics - Helped clients realize ROI by <strong class="font-semibold">forecasting monthly sales and usage patterns</strong>, using regression techniques and operationalized insights.</li>
+                </ul>
+            </div>
+            
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-8">
+        <div class="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center text-sm">
+            &copy; 2025 Akshay Erapalli. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
+
